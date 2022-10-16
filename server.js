@@ -9,3 +9,13 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+app.get('/', (req, res) =>{
+    res.send([1, 2, 3]);
+    }
+);
+
+app.post('/', (req, res) =>{
+    res.send([1, 2, 3]);
+    }
+);
